@@ -17,7 +17,7 @@ const ContextComponent = () => {
         <div>
           A context file holds the state and the provider funciton which
           provides the state to other components. The context is created using
-          the createContext funciton.
+          the createContext function.
         </div>
         <img src={createContext} alt="Create Context" />
         <hr />
@@ -37,7 +37,8 @@ const ContextComponent = () => {
           Context.Provider makes the component state available to all the
           components that are passed between the Context.Provider tags.
           Props.children refers to all the components passed in between the
-          Provider tags.
+          Provider tags. The value property takes in whatever data we want to
+          provide the components that this provider wraps.
         </div>
         <img src={contextProvider} alt="Create Context" />
         <hr />
