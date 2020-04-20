@@ -5,12 +5,13 @@ import BasicsComponent from "./components/BasicsComponent";
 import RouterComponent from "./components/RouterComponent";
 import ContextComponent from "./components/ContextComponent";
 import ReduxComponent from "./components/ReduxComponent";
+import GraphqlComponent from "./components/GraphqlComponent";
 
 function App() {
   const style = {
     marginRight: 15,
     textDecoration: "underline",
-    fontSize: 20
+    fontSize: 20,
   };
   return (
     <div className="App">
@@ -26,10 +27,14 @@ function App() {
       <Link to="/reduxComponent" style={style}>
         React Redux
       </Link>
+      <Link to="/graphqlComponent" style={style}>
+        GraphQL Apollo
+      </Link>
       <Route exact path="/" component={BasicsComponent} />
       <Route path="/routerComponent" component={RouterComponent} />
       <Route path="/contextComponent" component={ContextComponent} />
       <Route path="/reduxComponent" component={ReduxComponent} />
+      <Route path="/graphqlComponent" component={GraphqlComponent} />
     </div>
   );
 }
