@@ -32,6 +32,7 @@ import Step24B from "../images/graphql-apollo/Step 24B.PNG";
 import Step25A from "../images/graphql-apollo/Step 25A.PNG";
 import Step25B from "../images/graphql-apollo/Step 25B.PNG";
 import Step25C from "../images/graphql-apollo/Step 25C.PNG";
+import Step26 from "../images/graphql-apollo//Step 26.PNG";
 
 const GraphqlComponent = () => {
   return (
@@ -341,6 +342,14 @@ const GraphqlComponent = () => {
         details from the props. Example given below
       </div>
       <img src={Step25C} alt="Step 25C" />
+
+      <h3 className="display-4">Step 26</h3>
+      <div>
+        Another way to query data and get results to the front end is by using
+        the Query tag. The following image has been taken from
+        https://www.robinwieruch.de/react-graphql-apollo-tutorial
+      </div>
+      <img src={Step26} alt="Step 26" />
     </div>
   );
 };
