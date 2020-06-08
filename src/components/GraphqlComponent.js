@@ -346,7 +346,8 @@ const GraphqlComponent = () => {
       <h3 className="display-4">Step 26</h3>
       <div>
         Another way to query data and get results to the front end is by using
-        the Query tag. The following image has been taken from
+        the Query tag. There is also a similar Mutation tag. The following image
+        has been taken from
         https://www.robinwieruch.de/react-graphql-apollo-tutorial
       </div>
       <img src={Step26} alt="Step 26" />
